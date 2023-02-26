@@ -1,4 +1,4 @@
-name: github action demo 
+name: Github Action Demo 
 on:
   - push
 
@@ -7,6 +7,8 @@ jobs:
   Mkdocs-project:
     runs-on: ubuntu-latest
     steps:
+    - name : "CLone repository"
+      uses:  actions/checkout@v3
     - name: "List repository files"
       run: "ls -al"
 
