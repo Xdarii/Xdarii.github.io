@@ -1,7 +1,6 @@
 name: Github Action Demo
 
-on:
-  - push
+on: [push]
 
 jobs:
 
