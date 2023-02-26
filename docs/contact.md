@@ -1,2 +1,4 @@
 # Contact
-4544545
+Tel : XX XX XX XX
+
+Email : XX@XX.XX
