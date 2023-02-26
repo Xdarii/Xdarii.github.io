@@ -1,4 +1,5 @@
-name: Github Action Demo 
+name: Github Action Demo
+
 on:
   - push
 
@@ -18,3 +19,7 @@ jobs:
         python-version:3.x
     - name: "Install mkdocs"
       run: pip install mkdocs
+    -name: "Deploy project"
+      run: mkdocs gh-deploy --force
+    - name: "finish"
+      run : echo "job done"
