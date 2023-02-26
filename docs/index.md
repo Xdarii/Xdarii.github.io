@@ -1,7 +1,7 @@
 # Welcome to Dian web site
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
+Test
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
