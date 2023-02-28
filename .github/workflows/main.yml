@@ -23,7 +23,7 @@ jobs:
       - name: "show all env"
         run: printenv
       - name: "login to docker"
-        run: docker login -u ${{ secret.DOCKER_HUB_LOGIN }} -p ${{ secret.DOCKER_HUB_PASSWORD }}
+        run: docker login -u ${{ secrets.DOCKER_HUB_LOGIN }} -p ${{ secrets.DOCKER_HUB_PASSWORD }}
       - name: "build and push docker image"
         run: |
           docker build -t dianbah/profile:latest .
