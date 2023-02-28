@@ -22,6 +22,11 @@ jobs:
         run: echo "🎉 The job was successful."
       - name: "show all env"
         run: printenv
-      - name: "build docker image"
-        run: docker build -t dianbah/profile:latest .
-                
+      - name: "login to docker"
+        run: docker login -u ${{ secret.DOCKER_HUB_LOGIN }} -p ${{ secret.DOCKER_HUB_PASSWORD }}
+      - name: "build and push docker image"
+        run: |
+          docker build -t dianbah/profile:latest .
+          docker push dianbah/profile:latest 
+
+      
