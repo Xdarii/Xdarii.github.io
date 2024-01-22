@@ -4,10 +4,10 @@ This web site gives a deails of my projects, profil and details about my reposit
 
 
 ## Profil 
-[*WEB SITE*]([https://github.com/user/repo/blob/branch/other_file.md](https://sites.google.com/view/dianbah))
+[**WEB SITE**](https://sites.google.com/view/dianbah)
 
-[*LINKEDIN*]([[https://github.com/user/repo/blob/branch/other_file.md](https://sites.google.com/view/dianbah)](https://www.linkedin.com/in/mamadou-dian-bah-phd-31728935/
-))
+[**LINKEDIN**](https://www.linkedin.com/in/mamadou-dian-bah-phd-31728935/)
+
 
 
 
